@@ -20,16 +20,16 @@
           <Title>Red Square</Title>
           <Abstract>A 6 pixel square with a red fill and no stroke</Abstract>
             <PointSymbolizer>
-              <Graphic>
-                <Mark>
-                  <WellKnownName>square</WellKnownName>
-                  <Fill>
-                    <CssParameter name="fill">#FF0000</CssParameter>
-                  </Fill>
-                </Mark>
-              <Size><ogc:PropertyName>size</ogc:PropertyName></Size>
-            </Graphic>
-          </PointSymbolizer>
+   <Graphic>
+     <Mark>
+       <WellKnownName>circle</WellKnownName>
+       <Fill>
+         <CssParameter name="fill">#FF0000</CssParameter>
+       </Fill>
+     </Mark>
+     <Size><ogc:PropertyName>size</ogc:PropertyName></Size>
+   </Graphic>
+ </PointSymbolizer>
         </Rule>
       </FeatureTypeStyle>
     </UserStyle>
